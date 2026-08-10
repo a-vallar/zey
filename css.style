@@ -210,7 +210,6 @@ body {
     margin-left: 10px;
 }
 
-/* Sale Variant */
 
 .sale::before {
     content: "SALE";
@@ -224,7 +223,6 @@ body {
     font-size: .8rem;
 }
 
-/* Low Stock Variant */
 
 .low-stock::after {
     content: "Low Stock";
@@ -238,13 +236,11 @@ body {
     font-size: .8rem;
 }
 
-/* High Rating */
 
 .card[data-rating^="4.9"] {
     border: 3px solid gold;
 }
 
-/* Added Button */
 
 .btn--added {
     background: green;
